@@ -55,7 +55,7 @@
 
 ### Задание 1
 
-В проекте Netology_Project_ST_1 (https://drive.google.com/file/d/1Kj4EsO8ZMD7Qb946jnim0rhrwnOD8aGb/view?usp=sharing) проделать описанные далее операции.
+В проекте [Netology_Project_ST_1](https://drive.google.com/file/d/1Kj4EsO8ZMD7Qb946jnim0rhrwnOD8aGb/view?usp=sharing) проделать описанные далее операции.
 
 Внести изменения в блок данных DB_ValveEmul: добавить набор параметров Valve2* по аналогии с имеющимися Valve1.
 Внести изменения в организационный блок ValveEmul_OB: добавить второй экземпляр FC_ValveEmul, привязать его входы / выходы к полям Valve2 из DB_ValveEmul.
