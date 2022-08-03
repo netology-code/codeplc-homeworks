@@ -46,7 +46,7 @@
 ### Инструменты/ дополнительные материалы, которые пригодятся для выполнения задания
 
 1. TIA Portal 13, PLCSIM 13
-2. [Архив проекта Lecture_8_3](https://drive.google.com/file/d/1NFLWZJ6gH6tcZstrYLoqbB4SWpSs366x/view?usp=sharing)
+2. [Архив проекта Netology_Project_ST_2](https://drive.google.com/file/d/1strsWFRXeRuLAoxG7YBEOoaR6LOAfvV-/view?usp=sharing)
 3. Инструкция по созданию виртуальной машины
 4. Шаблон для домашнего задания
 
@@ -54,7 +54,7 @@
 
 ### Задание 1
 
-В проекте Lecture_8_3 проделать описанные далее операции.
+В проекте [Netology_Project_ST_2](https://drive.google.com/file/d/1strsWFRXeRuLAoxG7YBEOoaR6LOAfvV-/view?usp=sharing) проделать описанные далее операции.
 
 Добавить в программный проект новый блок данных Init_DB.
 Организовать в нем массив значений InitValue, содержащий 20 элементов типа Int. Заполнить значения всех элементов вновь созданного массива случайными числами.
