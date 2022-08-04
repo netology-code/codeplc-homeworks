@@ -45,8 +45,8 @@
 2. [Справочник по языку Wiring/С для Arduino](https://www.arduino.cc/reference/en)
 3. [Страница для создания проекта для платы Arduino Uno](https://wokwi.com/projects/new/arduino-uno)
 4. [Описание библиотеки LCD](https://github.com/troublegum/liquidcrystal_i2c)
-5. [wiki страничка LCD](https://docs.wokwi.com/parts/wokwi-lcd2004)
-6. [wiki страничка датчика NTC](https://docs.wokwi.com/parts/wokwi-ntc-temperature-sensor)
+5. [Wiki страничка LCD](https://docs.wokwi.com/parts/wokwi-lcd2004)
+6. [Wiki страничка датчика NTC](https://docs.wokwi.com/parts/wokwi-ntc-temperature-sensor)
 ------
 
 ### Задание 1
