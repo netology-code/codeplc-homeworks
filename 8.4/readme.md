@@ -33,7 +33,7 @@
   
 *ОБРАТИТЕ ВНИМАНИЕ! Устанавливается демо-версия программы. Её функционал будет ограничен спустя 21 день после установки. Рекомендуется установка софта на виртуальной машине. Как это сделать, описано в [инструкции](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing).*
 
-3. Скачайте по указанной ссылке [архив программного проекта Netology_Project_LD](https://drive.google.com/file/d/1mkh1KT8gYucOxA2c1kkYDGugtQuWVhhV/view?usp=sharing) и распакуйте его, используя функцию Retrieve среды программирования TIA Portal.
+3. Скачайте по указанной ссылке [архив программного проекта Netology_Project_LD](https://drive.google.com/file/d/1wsmQ3USQtaNwWMlVlvLwZCzYqYrozvGy/view?usp=sharing) и распакуйте его, используя функцию Retrieve среды программирования TIA Portal.
 
 ------
 
@@ -52,7 +52,7 @@
 ### Инструменты/ дополнительные материалы, которые пригодятся для выполнения задания
 
 1. [TIA Portal 13, PLCSIM 13](https://support.industry.siemens.com/cs/document/109745155/simatic-step-7-including-plcsim-v13-sp2-trial-download?dti=0&lc=en-WW)
-2. [Архив проекта Netology_Project_LD](https://drive.google.com/file/d/1mkh1KT8gYucOxA2c1kkYDGugtQuWVhhV/view?usp=sharing)
+2. [Архив проекта Netology_Project_LD](https://drive.google.com/file/d/1wsmQ3USQtaNwWMlVlvLwZCzYqYrozvGy/view?usp=sharing)
 3. [Инструкция по созданию виртуальной машины](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing)
 4. [Шаблон для домашнего задания](https://docs.google.com/document/d/1hzgoSY8iJkuY74o07KMiuHO57MyPv7cTkXEkLE3N1wY/edit?usp=sharing)
 
@@ -60,7 +60,7 @@
 
 ### Задание 1
 
-1. В [проекте Netology_Project_LD](https://drive.google.com/file/d/1mkh1KT8gYucOxA2c1kkYDGugtQuWVhhV/view?usp=sharing) проделайте описанные ниже операции (для возможности управления нормально открытым отсечным клапаном):
+1. В [проекте Netology_Project_LD](https://drive.google.com/file/d/1wsmQ3USQtaNwWMlVlvLwZCzYqYrozvGy/view?usp=sharing) проделайте описанные ниже операции (для возможности управления нормально открытым отсечным клапаном):
 - методом Copy-Paste скопируйте в папке Program Blocks функциональный блок LAD_ValveCtrl_FB и вставьте его, изменив название на LAD_ValveRevCtrl_FB
 - внесите в код программы нового функционального блока изменения, необходимые для управления нормально открытым клапаном с помощью данного FB: при формировании на входе CmdIn команды «Открыть» (логическая «1») на выходе CmdOut должен формироваться логический «0» и наоборот
 - при необходимости измените признаки формирования ошибки (выход Err) в части несоответствия значений входов CmdIn и FBO
