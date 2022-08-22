@@ -39,7 +39,7 @@
 
 ### Инструкция к заданию
 
-1. Сделайте копию [Шаблона для домашнего задания](https://docs.google.com/document/d/178B47bzn1EpAnIus6CENF2T5WhJeYAqxpfcolAxQ5l4/edit?usp=sharing) себе на Google Диск.
+1. Сделайте копию [Шаблона для домашнего задания](https://docs.google.com/document/d/1fY7ppRmQDDn8RPF8LRXai7DpTxoiajZSpb288-KPi7c/edit?usp=sharing) себе на Google Диск.
 2. В названии файла введите корректное название лекции и вашу фамилию и имя.
 3. Зайдите в «Настройки доступа» и выберите доступ «Просматривать могут все в Интернете, у кого есть ссылка». Ссылка на инструкцию Как предоставить доступ к файлам и папкам на Google Диске
 4. Скопируйте текст задания в свой документ.
@@ -54,7 +54,7 @@
 1. [TIA Portal 13, PLCSIM 13](https://support.industry.siemens.com/cs/document/109745155/simatic-step-7-including-plcsim-v13-sp2-trial-download?dti=0&lc=en-WW)
 2. [Архив проекта Netology_Project_SFC](https://drive.google.com/file/d/1sW8EiOawku5Jo9VZNBe6buyNNdq9jsUU/view?usp=sharing)
 3. [Инструкция по созданию виртуальной машины](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing)
-4. [Шаблон для домашнего задания](https://docs.google.com/document/d/178B47bzn1EpAnIus6CENF2T5WhJeYAqxpfcolAxQ5l4/edit?usp=sharing)
+4. [Шаблон для домашнего задания](https://docs.google.com/document/d/1fY7ppRmQDDn8RPF8LRXai7DpTxoiajZSpb288-KPi7c/edit?usp=sharing)
 
 ------
 
