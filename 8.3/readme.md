@@ -38,7 +38,7 @@
   
 *ОБРАТИТЕ ВНИМАНИЕ! Устанавливается демо-версия программы. Её функционал будет ограничен спустя 21 день после установки. Рекомендуется установка софта на виртуальной машине. Как это сделать, описано в [инструкции](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing).*
 
-3. Скачайте по указанной ссылке [архив программного проекта Netology_Project_ST_2](https://drive.google.com/file/d/1strsWFRXeRuLAoxG7YBEOoaR6LOAfvV-/view?usp=sharing) и распакуйте его, используя функцию Retrieve среды программирования TIA Portal.
+3. Скачайте по указанной ссылке [архив программного проекта Netology_Project_ST_2](https://drive.google.com/file/d/1MGJqTS1c4vL6OB2PgStM74iRgNol2bNL/view?usp=sharing) и распакуйте его, используя функцию Retrieve среды программирования TIA Portal.
 
 ------
 
@@ -57,7 +57,7 @@
 ### Инструменты/ дополнительные материалы, которые пригодятся для выполнения задания
 
 1. [TIA Portal 13, PLCSIM 13](https://support.industry.siemens.com/cs/document/109745155/simatic-step-7-including-plcsim-v13-sp2-trial-download?dti=0&lc=en-WW)
-2. [Архив проекта Netology_Project_ST_2](https://drive.google.com/file/d/1strsWFRXeRuLAoxG7YBEOoaR6LOAfvV-/view?usp=sharing)
+2. [Архив проекта Netology_Project_ST_2](https://drive.google.com/file/d/1MGJqTS1c4vL6OB2PgStM74iRgNol2bNL/view?usp=sharing)
 3. [Инструкция по созданию виртуальной машины](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing)
 4. [Шаблон для домашнего задания](https://docs.google.com/document/d/1Gx0ozWR4enZ6wCi-EIqZuCqU5CR2fKascJFccmecVlI/edit?usp=sharing)
 
@@ -65,7 +65,7 @@
 
 ### Задание 1
 
-1. В проекте [Netology_Project_ST_2](https://drive.google.com/file/d/1strsWFRXeRuLAoxG7YBEOoaR6LOAfvV-/view?usp=sharing) продейте описанные ниже операции:
+1. В проекте [Netology_Project_ST_2](https://drive.google.com/file/d/1MGJqTS1c4vL6OB2PgStM74iRgNol2bNL/view?usp=sharing) продейте описанные ниже операции:
 - добавьте в программный проект новый блок данных Init_DB
 - организуйте в нём массив значений InitValue, содержащий 20 элементов типа Int
 - заполните значения всех элементов вновь созданного массива случайными числами
