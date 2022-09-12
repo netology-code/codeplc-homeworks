@@ -36,7 +36,7 @@
 *ОБРАТИТЕ ВНИМАНИЕ! Устанавливается демо-версия программы. Её функционал будет ограничен спустя 21 день после установки. Рекомендуется установка софта на виртуальной машине. Как это сделать, описано в [инструкции](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing).*
 
 
-3. Скачайте по указанной ссылке [архив программного проекта Netology_Project_ST_1](https://drive.google.com/file/d/1Kj4EsO8ZMD7Qb946jnim0rhrwnOD8aGb/view?usp=sharing) и распакуйте его, используя функцию Retrieve среды программирования TIA Portal.
+3. Скачайте по указанной ссылке [архив программного проекта Netology_Project_ST_1](https://drive.google.com/file/d/1lz_sIDyMUWzzI_eHZg0ZKMZkSjTM902z/view?usp=sharing) и распакуйте его, используя функцию Retrieve среды программирования TIA Portal.
 
 ------
 
@@ -55,7 +55,7 @@
 ### Инструменты/ дополнительные материалы, которые пригодятся для выполнения задания
 
 1. [TIA Portal 13, PLCSIM 13](https://support.industry.siemens.com/cs/document/109745155/simatic-step-7-including-plcsim-v13-sp2-trial-download?dti=0&lc=en-WW)
-2. [Архив проекта Netology_Project_ST_1](https://drive.google.com/file/d/1Kj4EsO8ZMD7Qb946jnim0rhrwnOD8aGb/view?usp=sharing)
+2. [Архив проекта Netology_Project_ST_1](https://drive.google.com/file/d/1lz_sIDyMUWzzI_eHZg0ZKMZkSjTM902z/view?usp=sharing)
 3. [Инструкция по созданию виртуальной машины](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing)
 4. [Шаблон для домашнего задания](https://docs.google.com/document/d/1mjJ4Siyw6zgp1zHR7xaU-ysv_Kv5DMaYtPE5R1EBM78/edit?usp=sharing)
 
@@ -63,7 +63,7 @@
 
 ### Задание 1
 
-1. В проекте [Netology_Project_ST_1](https://drive.google.com/file/d/1Kj4EsO8ZMD7Qb946jnim0rhrwnOD8aGb/view?usp=sharing) проделайте следующие операции:
+1. В проекте [Netology_Project_ST_1](https://drive.google.com/file/d/1lz_sIDyMUWzzI_eHZg0ZKMZkSjTM902z/view?usp=sharing) проделайте следующие операции:
 - внесите изменения в блок данных DB_ValveEmul: добавьте набор параметров по аналогии с имеющимися для Valve1 (названия этих параметров должны начинаться с Valve2)
 - внесите изменения в организационный блок ValveEmul_OB: добавьте второй экземпляр FC_ValveEmul, привяжите его входы/выходы ко вновь созданным полям из DB_ValveEmul
 - внесите изменения в организационный блок OB1 (Main): добавьте второй экземпляр FB ValveCtrl, привяжите его входы/выходы к вновь созданным полям из DB_ValveEmul.
