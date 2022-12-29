@@ -1,34 +1,42 @@
-# Домашнее задание к занятию «Программирование на языке ST: Часть 2»
+# Домашнее задание к занятию «Программирование на языке ST. Часть 2»
 
 ### Цель задания
 
-Выполнив домашнее задание, вы получите опыт создания программ на языке SCL (аналоге языка ST от компании Siemens) в программном проекте в TIA Portal 13.
+Получить опыт создания программ на языке SCL, аналоге языка ST от компании Siemens, в программном проекте в TIA Portal 13.
 
 В результате выполнения этого задания вы сможете:
 
-1. Вносить изменения в программный код на языке SCL в соответствии с заданием:
-- создавать массивы
-- копировать значения элементов между массивами с использованием оператора цикла
-- производить привязку параметров программ ко входам и выходам контроллера
-- изменять значения аналоговых и дискретных входов при использовании симулятора контроллера.
+- вносить изменения в программный код на языке SCL в соответствии с заданием:
+ - создавать массивы;
+ - копировать значения элементов между массивами с использованием оператора цикла;
+ - производить привязку параметров программ ко входам и выходам контроллера;
+ - изменять значения аналоговых и дискретных входов при использовании симулятора контроллера.
 
-2. Получить опыт работы с системой TIA Portal (в части программирования на языке SCL) и программой PLCSIM в части разработки, загрузки и отладки программ.
+- получить опыт работы с системой TIA Portal в части программирования на языке SCL и программой PLCSIM в части разработки, загрузки и отладки программ.
 
 ------
 
-### Чеклист готовности к домашнему заданию
+### Чек-лист готовности к домашнему заданию
 
-1. Зарегистрируйтесь на [портале Siemens](https://mall.industry.siemens.com/goos/WelcomePage.aspx?regionUrl=/ru&language=ru) и получите персональный логин и пароль для входа в систему. Процесс регистрации описан в [соответствующей инструкции](https://docs.google.com/presentation/d/1RPHvCE2OxBbHRMWSAV2E-HxscZvR2nRIZVHCy8hvjJE/edit?usp=sharing).
-2. Загрузите и установите программное обеспечение для создания проекта PLC Siemens, входящее в состав пакета TIA Portal с [официального ресурса Siemens](https://support.industry.siemens.com/cs/document/78793685/simatic-step-7-(tia-portal)-v13-trial-download?dti=0&lc=en-DE)
+1. Зарегистрируйтесь на [портале Siemens](https://mall.industry.siemens.com/goos/WelcomePage.aspx?regionUrl=/ru&language=ru) и получите персональный логин и пароль для входа в систему. Процесс регистрации описан в [инструкции](https://docs.google.com/presentation/d/1RPHvCE2OxBbHRMWSAV2E-HxscZvR2nRIZVHCy8hvjJE/edit?usp=sharing).
+2. Загрузите с [официального ресурса Siemens](https://support.industry.siemens.com/cs/document/78793685/simatic-step-7-(tia-portal)-v13-trial-download?dti=0&lc=en-DE) и установите программное обеспечение для создания проекта PLC Siemens, входящее в состав пакета TIA Portal. 
+3. Скачайте [архив программного проекта Netology_Project_ST_2](https://drive.google.com/file/d/1nx9axpW1Qit4_P28RV2Xm5kgc0PQXanT/view?usp=share_link) и распакуйте его, используя функцию Retrieve среды программирования TIA Portal.
+
+
 <details>
-  <summary> Подсказка по установке (доступна по клику)</summary>
+  <summary> Подсказка по установке.</summary>
   
   
 1. Скачайте все файлы по [ссылке](https://support.industry.siemens.com/cs/document/109745155/simatic-step-7-including-plcsim-v13-sp2-trial-download?dti=0&lc=en-DE) в две отдельные папки:
-  - STEP 7 Professional V13 SP2 (DVD 1, DVD 2, SHA-256 checksum)
+ 
+  - STEP 7 Professional V13 SP2 (DVD 1, DVD 2, SHA-256 checksum).
+ 
   ![image](https://github.com/netology-code/phd-homeworks/blob/main/6.6/Step7_1.png)
-  - SIMATIC STEP 7 PLCSIM V13 SP2 for STEP 7 Basic and STEP 7 Professional (включая SHA-256 checksum)
-    ![image](https://github.com/netology-code/phd-homeworks/blob/main/6.6/Step7_2.png)
+ 
+  - SIMATIC STEP 7 PLCSIM V13 SP2 for STEP 7 Basic and STEP 7 Professional, включая SHA-256 checksum.
+  
+  ![image](https://github.com/netology-code/phd-homeworks/blob/main/6.6/Step7_2.png)
+
 2. Запустите установочный файл SIMATIC_STEP_7_Professional_V13_SP2_Upd4.exe, пройдите стандартную процедуру установки.
 3. Запустите установочный файл SIMATIC_S7_PLCSIM_V13_SP2.exe, пройдите стандартную процедуру установки.
 
@@ -36,42 +44,40 @@
   
 </details>
   
-*ОБРАТИТЕ ВНИМАНИЕ! Устанавливается демо-версия программы. Её функционал будет ограничен спустя 21 день после установки. Рекомендуется установка софта на виртуальной машине. Как это сделать, описано в [инструкции](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing).*
-
-3. Скачайте по указанной ссылке [архив программного проекта Netology_Project_ST_2](https://drive.google.com/file/d/1nx9axpW1Qit4_P28RV2Xm5kgc0PQXanT/view?usp=share_link) и распакуйте его, используя функцию Retrieve среды программирования TIA Portal.
+**Обратите внимание.** Устанавливается демо-версия программы. Её функционал будет ограничен через 21 день после установки. Рекомендуем установку софта на виртуальной машине. Как это сделать, описано в [инструкции](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing).
 
 ------
 
 ### Инструкция к заданию
 
-1. Сделайте копию [Шаблона для домашнего задания](https://docs.google.com/document/d/1Gx0ozWR4enZ6wCi-EIqZuCqU5CR2fKascJFccmecVlI/edit?usp=sharing) себе на Google Диск.
-2. В названии файла введите корректное название лекции и вашу фамилию и имя.
-3. Зайдите в «Настройки доступа» и выберите доступ «Просматривать могут все в Интернете, у кого есть ссылка». Ссылка на инструкцию [Как предоставить доступ к файлам и папкам на Google Диске](https://support.google.com/docs/answer/2494822?hl=ru&co=GENIE.Platform%3DDesktop).
+1. Сделайте копию файла [«Шаблон для домашнего задания»](https://docs.google.com/document/d/1MiwldIkT0D7OWcygHadT0PwvF4M3eY3FKipRuTsttIs/edit?usp=sharing) на свой Google Диск.
+2. В названии файла введите корректное название лекции и ваши фамилию и имя.
+3. Зайдите в «Настройки доступа» и выберите доступ «Просматривать могут все в интернете, у кого есть ссылка». Инструкция «Как предоставить доступ к файлам и папкам на Google Диске» [по ссылке](https://support.google.com/docs/answer/2494822?hl=ru&co=GENIE.Platform%3DDesktop).
 4. Скопируйте текст задания в свой документ.
-5. Выполните домашнее задание, запишите ответы и приложите необходимые скриншоты в свой Google Doc.
-6. Для проверки домашнего задания преподавателем отправьте ссылку на ваш документ в личном кабинете.
+5. Выполните задание, запишите ответы и приложите необходимые скриншоты в свой Google Doc.
+6. Для проверки домашнего задания отправьте ссылку на ваш документ в личном кабинете.
 7. Любые вопросы по решению задач задавайте в чате учебной группы.
 
 ------
 
-### Инструменты/ дополнительные материалы, которые пригодятся для выполнения задания
+### Инструменты и дополнительные материалы для выполнения задания
 
-1. [TIA Portal 13, PLCSIM 13](https://support.industry.siemens.com/cs/document/109745155/simatic-step-7-including-plcsim-v13-sp2-trial-download?dti=0&lc=en-WW)
-2. [Архив проекта Netology_Project_ST_2](https://drive.google.com/file/d/1nx9axpW1Qit4_P28RV2Xm5kgc0PQXanT/view?usp=share_link)
-3. [Инструкция по созданию виртуальной машины](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing)
-4. [Шаблон для домашнего задания](https://docs.google.com/document/d/1Gx0ozWR4enZ6wCi-EIqZuCqU5CR2fKascJFccmecVlI/edit?usp=sharing)
+1. [TIA Portal 13, PLCSIM 13](https://support.industry.siemens.com/cs/document/109745155/simatic-step-7-including-plcsim-v13-sp2-trial-download?dti=0&lc=en-WW).
+2. [Архив проекта Netology_Project_ST_2](https://drive.google.com/file/d/1nx9axpW1Qit4_P28RV2Xm5kgc0PQXanT/view?usp=share_link).
+3. [Инструкция по созданию виртуальной машины](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing).
+4. [Шаблон для домашнего задания](https://docs.google.com/document/d/1Gx0ozWR4enZ6wCi-EIqZuCqU5CR2fKascJFccmecVlI/edit?usp=sharing).
 
 ------
 
 ### Задание 1
 
-1. В проекте [Netology_Project_ST_2](https://drive.google.com/file/d/1nx9axpW1Qit4_P28RV2Xm5kgc0PQXanT/view?usp=share_link) продейте описанные ниже операции:
-- добавьте в программный проект новый блок данных Init_DB
-- организуйте в нём массив значений InitValue, содержащий 20 элементов типа Int
-- заполните значения всех элементов вновь созданного массива случайными числами
-- измените программный код в организационном блоке Startup (OB 100) таким образом, чтобы в каждый элемент массива DefaultValue записывалось значение элемента массива InitValue с тем же номером.
+1. В проекте [Netology_Project_ST_2](https://drive.google.com/file/d/1nx9axpW1Qit4_P28RV2Xm5kgc0PQXanT/view?usp=share_link) продейте операции:
+ - добавьте в программный проект новый блок данных Init_DB;
+ - организуйте в нём массив значений InitValue, содержащий 20 элементов типа Int;
+ - заполните значения всех элементов вновь созданного массива случайными числами;
+ - измените программный код в организационном блоке Startup (OB 100) так, чтобы в каждый элемент массива DefaultValue записывалось значение элемента массива InitValue с тем же номером.
 2. Произведите компиляцию проекта и его загрузку в PLCSIM.
-3. Переведите PLCSIM в режим STOP, а затем - вновь в режим RUN.
+3. Переведите PLCSIM в режим STOP, а затем вновь в режим RUN.
 4. В блоке данных DefaultVal_DB включите режим мониторинга и убедитесть, что элементы массива DefaultValue содержат значения соответствующих элементов массива InitValue.
 5. Сделайте скриншоты OB100, DB DefaultVal_DB и приложите к заданию.
 
@@ -79,17 +85,17 @@
 
 ### Задание 2
 
-1. В таблице тегов Default tag table произведите следующие изменения:
-- переименуйте тег «AI02» в «AnalogValve1_FB_Pos»
-- переименуйте тег «AO02» в «AnalogValve1_Cmd»
-- добавьте новый тег «Valve1_FB_Close» (I 0.4)
-- добавьте новый тег «Valve1_FB_Open» (I 0.3)
-- добавьте новый тег «Valve1_Cmd» (Q 0.2).
-2. В организационном блоке OB1 (Main) измените привязки экземпляров функциональных блоков ValveCtrl, AnalogValve_FB, перепривязав входы и выходы к вышеупомянутым тегам.
+1. В таблице тегов Default tag table произведите изменения:
+ - переименуйте тег «AI02» в «AnalogValve1_FB_Pos»;
+ - переименуйте тег «AO02» в «AnalogValve1_Cmd»;
+ - добавьте новый тег «Valve1_FB_Close» (I 0.4);
+ - добавьте новый тег «Valve1_FB_Open» (I 0.3);
+ - добавьте новый тег «Valve1_Cmd» (Q 0.2).
+2. В организационном блоке OB1 (Main) измените привязки экземпляров функциональных блоков ValveCtrl, AnalogValve_FB, перепривязав входы и выходы к тегам выше.
 3. Произведите компиляцию проекта и его загрузку в PLCSIM.
-4. Измените значения входа Cmd экземпляра блока ValveCtrl с 0 (FALSE) на 1 (TRUE).
-5. Измените значения входа CmdIn экземпляра блока AnalogValve_FB с 0 на 50.
-6. В PLCSIM после перехода в режим RUN измените значения тегов «AnalogValve1_FB_Pos», «Valve1_FB_Close», «Valve1_FB_Open» таким образом, чтобы сбросить признаки ошибок, т.е. чтобы выходы Err экземпляров функциональных блоков имели значение FALSE.
+4. Измените значения входа CMD экземпляра блока ValveCtrl с 0 (FALSE) на 1 (TRUE).
+5. Измените значения входа CMDIN экземпляра блока AnalogValve_FB с 0 на 50.
+6. В PLCSIM после перехода в режим RUN измените значения тегов «AnalogValve1_FB_Pos», «Valve1_FB_Close», «Valve1_FB_Open» так, чтобы сбросить признаки ошибок, т. е. чтобы выходы Err экземпляров функциональных блоков имели значение FALSE.
 7. Сделайте скриншот OB1 в режиме мониторинга и приложите к заданию.
 
 
@@ -98,9 +104,9 @@
 ### Задание 3
 
 1. Измените функциональный блок FB AnalogValve_FB следующим образом:
-- добавьте вход MonTime (тип: Time), чтобы задавать время задержки на формирование ошибки с его помощью
-- добавьте вход DiffVal (тип: Int), чтобы использовать его для задания допустимого рассогласования между значениями CmdIn и FB_Pos.
-2. Внесите соответствующие изменения в блок данных DB_ValveEmul, добавив там поле AnalogValve1_Time (тип: Time, начальное значение: T#60s), AnalogValve1_DiffVal (тип: Int, начальное значение: 15).
+ - добавьте вход MonTime (тип: Time), чтобы задавать время задержки на формирование ошибки с его помощью;
+ - добавьте вход DiffVal (тип: Int), чтобы использовать его для задания допустимого рассогласования между значениями CmdIn и FB_Pos.
+2. Внесите изменения в блок данных DB_ValveEmul, добавив там поле AnalogValve1_Time (тип: Time, начальное значение: T#60s), AnalogValve1_DiffVal (тип: Int, начальное значение: 15).
 3. Произведите необходимые привязки в экземпляре данного FB, вызываемого в OB1.
 4. Произведите компиляцию проекта и его загрузку в PLCSIM.
 5. В OB1 включите режим мониторинга и убедитесь в корректности работы экземпляра FB AnalogValve_FB.
@@ -112,7 +118,7 @@
 
 1. Отправлена ссылка на документ (Google Doc) с выполненным заданием в личном кабинете.
 2. Документ размещён на личном Google Диске.
-3. К документу настроены права доступа «Просматривать могут все в Интернете, у кого есть ссылка».
+3. К документу настроены права доступа «Просматривать могут все в интернете, у кого есть ссылка».
 
 ------
 

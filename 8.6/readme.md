@@ -2,28 +2,35 @@
 
 ### Цель задания
 
-Выполнив домашнее задание, вы получите опыт создания программ на языке SFC в программном проекте в TIA Portal 13.
+Получить опыт создания программ на языке SFC в программном проекте в TIA Portal 13.
 
 В результате выполнения этого задания вы сможете:
 
-1. Вносить изменения в программы на языке SFC в соответствии с заданием.
-2. Получить опыт работы с системой TIA Portal (в части программирования на языке SFC) и программой PLCSIM в части разработки, загрузки и отладки программ.
+- вносить изменения в программы на языке SFC в соответствии с заданием;
+- получить опыт работы с системой TIA Portal в части программирования на языке SFC и программой PLCSIM в части разработки, загрузки и отладки программ.
 
 ------
 
-### Чеклист готовности к домашнему заданию
+### Чек-лист готовности к домашнему заданию
 
-1. Зарегистрируйтесь на [портале Siemens](https://mall.industry.siemens.com/goos/WelcomePage.aspx?regionUrl=/ru&language=ru) и получите персональный логин и пароль для входа в систему. Процесс регистрации описан в [соответствующей инструкции](https://docs.google.com/presentation/d/1RPHvCE2OxBbHRMWSAV2E-HxscZvR2nRIZVHCy8hvjJE/edit?usp=sharing).
-2. Загрузите и установите программное обеспечение для создания проекта PLC Siemens, входящее в состав пакета TIA Portal с [официального ресурса Siemens](https://support.industry.siemens.com/cs/document/78793685/simatic-step-7-(tia-portal)-v13-trial-download?dti=0&lc=en-DE)
+1. Зарегистрируйтесь на [портале Siemens](https://mall.industry.siemens.com/goos/WelcomePage.aspx?regionUrl=/ru&language=ru) и получите персональный логин и пароль для входа в систему. Процесс регистрации описан в [инструкции](https://docs.google.com/presentation/d/1RPHvCE2OxBbHRMWSAV2E-HxscZvR2nRIZVHCy8hvjJE/edit?usp=sharing).
+2. Загрузите с [официального ресурса Siemens](https://support.industry.siemens.com/cs/document/78793685/simatic-step-7-(tia-portal)-v13-trial-download?dti=0&lc=en-DE) и установите программное обеспечение для создания проекта PLC Siemens, входящее в состав пакета TIA Portal. 
+3. Скачайте [архив программного проекта Netology_Project_SFC](https://drive.google.com/file/d/1sW8EiOawku5Jo9VZNBe6buyNNdq9jsUU/view?usp=sharing) и распакуйте его, используя функцию Retrieve среды программирования TIA Portal.
+
 <details>
-  <summary> Подсказка по установке (доступна по клику)</summary>
+  <summary> Подсказка по установке.</summary>
   
   
 1. Скачайте все файлы по [ссылке](https://support.industry.siemens.com/cs/document/109745155/simatic-step-7-including-plcsim-v13-sp2-trial-download?dti=0&lc=en-DE) в две отдельные папки:
-  - STEP 7 Professional V13 SP2 (DVD 1, DVD 2, SHA-256 checksum)
+ 
+  - STEP 7 Professional V13 SP2 (DVD 1, DVD 2, SHA-256 checksum).
+ 
   ![image](https://github.com/netology-code/phd-homeworks/blob/main/6.6/Step7_1.png)
-  - SIMATIC STEP 7 PLCSIM V13 SP2 for STEP 7 Basic and STEP 7 Professional (включая SHA-256 checksum)
+ 
+  - SIMATIC STEP 7 PLCSIM V13 SP2 for STEP 7 Basic and STEP 7 Professional (включая SHA-256 checksum).
+  
     ![image](https://github.com/netology-code/phd-homeworks/blob/main/6.6/Step7_2.png)
+
 2. Запустите установочный файл SIMATIC_STEP_7_Professional_V13_SP2_Upd4.exe, пройдите стандартную процедуру установки.
 3. Запустите установочный файл SIMATIC_S7_PLCSIM_V13_SP2.exe, пройдите стандартную процедуру установки.
 
@@ -31,50 +38,53 @@
   
 </details>
   
-*ОБРАТИТЕ ВНИМАНИЕ! Устанавливается демо-версия программы. Её функционал будет ограничен спустя 21 день после установки. Рекомендуется установка софта на виртуальной машине. Как это сделать, описано в [инструкции](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing).*
-
-3. Скачайте по указанной ссылке [архив программного проекта Netology_Project_SFC](https://drive.google.com/file/d/1sW8EiOawku5Jo9VZNBe6buyNNdq9jsUU/view?usp=sharing) и распакуйте его, используя функцию Retrieve среды программирования TIA Portal.
+**Обратите внимание.** Устанавливается демо-версия программы. Её функционал будет ограничен через 21 день после установки. Рекомендуем установку софта на виртуальной машине. Как это сделать, описано в [инструкции](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing).
 
 ------
 
 ### Инструкция к заданию
 
-1. Сделайте копию [Шаблона для домашнего задания](https://docs.google.com/document/d/1fY7ppRmQDDn8RPF8LRXai7DpTxoiajZSpb288-KPi7c/edit?usp=sharing) себе на Google Диск.
-2. В названии файла введите корректное название лекции и вашу фамилию и имя.
-3. Зайдите в «Настройки доступа» и выберите доступ «Просматривать могут все в Интернете, у кого есть ссылка». Ссылка на инструкцию [Как предоставить доступ к файлам и папкам на Google Диске](https://support.google.com/docs/answer/2494822?hl=ru&co=GENIE.Platform%3DDesktop).
+1. Сделайте копию файла [«Шаблон для домашнего задания»](https://docs.google.com/document/d/1MiwldIkT0D7OWcygHadT0PwvF4M3eY3FKipRuTsttIs/edit?usp=sharing) на свой Google Диск.
+2. В названии файла введите корректное название лекции и ваши фамилию и имя.
+3. Зайдите в «Настройки доступа» и выберите доступ «Просматривать могут все в интернете, у кого есть ссылка». Инструкция «Как предоставить доступ к файлам и папкам на Google Диске» [по ссылке](https://support.google.com/docs/answer/2494822?hl=ru&co=GENIE.Platform%3DDesktop).
 4. Скопируйте текст задания в свой документ.
-5. Выполните домашнее задание, запишите ответы и приложите необходимые скриншоты в свой Google Doc.
-6. Для проверки домашнего задания преподавателем отправьте ссылку на ваш документ в личном кабинете.
+5. Выполните задание, запишите ответы и приложите необходимые скриншоты в свой Google Doc.
+6. Для проверки домашнего задания отправьте ссылку на ваш документ в личном кабинете.
 7. Любые вопросы по решению задач задавайте в чате учебной группы.
 
 ------
 
-### Инструменты/ дополнительные материалы, которые пригодятся для выполнения задания
+### Инструменты и дополнительные материалы для выполнения задания
 
-1. [TIA Portal 13, PLCSIM 13](https://support.industry.siemens.com/cs/document/109745155/simatic-step-7-including-plcsim-v13-sp2-trial-download?dti=0&lc=en-WW)
-2. [Архив проекта Netology_Project_SFC](https://drive.google.com/file/d/1sW8EiOawku5Jo9VZNBe6buyNNdq9jsUU/view?usp=sharing)
-3. [Инструкция по созданию виртуальной машины](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing)
-4. [Шаблон для домашнего задания](https://docs.google.com/document/d/1fY7ppRmQDDn8RPF8LRXai7DpTxoiajZSpb288-KPi7c/edit?usp=sharing)
+1. [TIA Portal 13, PLCSIM 13](https://support.industry.siemens.com/cs/document/109745155/simatic-step-7-including-plcsim-v13-sp2-trial-download?dti=0&lc=en-WW).
+2. [Архив проекта Netology_Project_SFC](https://drive.google.com/file/d/1sW8EiOawku5Jo9VZNBe6buyNNdq9jsUU/view?usp=sharing).
+3. [Инструкция по созданию виртуальной машины](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing).
+4. [Шаблон для домашнего задания](https://docs.google.com/document/d/1fY7ppRmQDDn8RPF8LRXai7DpTxoiajZSpb288-KPi7c/edit?usp=sharing).
 
 ------
 
 ### Задание 1
 
-В [проекте Netology_Project_SFC](https://drive.google.com/file/d/1sW8EiOawku5Jo9VZNBe6buyNNdq9jsUU/view?usp=sharing) проделайте описанные ниже операции.
+В [проекте Netology_Project_SFC](https://drive.google.com/file/d/1sW8EiOawku5Jo9VZNBe6buyNNdq9jsUU/view?usp=sharing) проделайте операции:
 
 1. Добавьте в таблицу тегов PLC_Tags_1 новые теги:
-- AnValve1_Time_Open (тип: Time, адрес - MD12)
-- Tank1_TimeWait (тип: Time, адрес - MD16).
+
+  - AnValve1_Time_Open (тип: Time, адрес — MD12);
+  - Tank1_TimeWait (тип: Time, адрес — MD16).
+
 2. Внесите изменения в функциональный блок GRAPH_TankFill_FB:
-- в шаге «AnValve1 Op» (S6) измените присвоение значение входа CmdIn экземпляра функционального блока FBD_AnalogValve_FB - вместо константы 25 задайте тег LAD_AnValve_CmdIn
-- в этом же шаге измените присвоение значение входа PT экземпляра функционального блока TON - вместо константы 30 s задайте переменную AnValve1_Time_Open
-- в шаге «Wait» (S4) измените присвоение значение входа PT экземпляра функционального блока TON - вместо константы 30 s задайте переменную Tank1_TimeWait.
+  - в шаге «AnValve1 Op» (S6) измените присвоение значение входа CMDIN экземпляра функционального блока FBD_AnalogValve_FB — вместо константы 25 задайте тег LAD_AnValve_CmdIn;
+  - в этом же шаге измените присвоение значение входа PT экземпляра функционального блока TON — вместо константы 30 s задайте переменную AnValve1_Time_Open;
+  - в шаге «Wait» (S4) измените присвоение значение входа PT экземпляра функционального блока TON — вместо константы 30 s задайте переменную Tank1_TimeWait.
+
 3. Произведите компиляцию и загрузку проекта в PLCSIM.
 4. Открыв GRAPH_TankFill_FB в режиме мониторинга, измените значения тегов следующим образом:
-- LAD_AnValve_CmdIn = 35
-- AnValve1_Time_Open = 15 s
-- Tank1_TimeWait = 25 s.
-5. После этого запустите программу, выполняя условия переходов между шагами. Убедитесь, что новые значения параметров были применены.
+
+  - LAD_AnValve_CmdIn = 35;
+  - AnValve1_Time_Open = 15 s;
+  - Tank1_TimeWait = 25 s.
+
+5. Запустите программу, выполняя условия переходов между шагами. Убедитесь, что новые значения параметров были применены.
 6. Сделайте скриншоты развёрнутых Actions шагов «AnValve1 Op», «Wait» и приложите их к заданию.
 
 ------
@@ -82,11 +92,12 @@
 ### Задание 2
 
 1. Внесите изменения в функциональный блок GRAPH_TankFill_FB:
-- в переход «OpEn & Level = 0» (T1) добавьте условия отсутствия ошибок на всех клапанах, участвующих в программе, т.е. Valve1, Valve2, AnValve1
-- произведите компиляцию и загрузку проекта в PLCSIM
-- открыв организационный блок FBD_Program_OB в режиме Monitoring, сбросьте признаки ошибок, применяя соответствующие входы Reset. 
 
-Примечание: при необходимости установите сигналы обратной связи FBO, FBC (для отсечных клапанов), FB_Pos (для регулирующего клапана) в значения, соответствующие командам. Это требуется для сброса ошибок.
+  - в переход «OpEn & Level = 0» (T1) добавьте условия отсутствия ошибок на всех клапанах, участвующих в программе, т. е. Valve1, Valve2, AnValve1;
+  - произведите компиляцию и загрузку проекта в PLCSIM;
+  - открыв организационный блок FBD_Program_OB в режиме Monitoring, сбросьте признаки ошибок, применяя соответствующие входы Reset. 
+
+    Примечание: при необходимости установите сигналы обратной связи FBO, FBC для отсечных клапанов, FB_Pos для регулирующего клапана в значения, соответствующие командам. Это нужно для сброса ошибок.
 
 2. Откройте GRAPH_TankFill_FB в режиме мониторинга. Убедитесь, что выполнены все условия для перехода из шага «All Valves Cl» (S1) в шаги «Valve1 Op» (S2) и «AnValve1 Op» (S6), за исключением сигнала «OpEnable».
 3. Сделайте скриншот развёрнутого перехода «OpEn & Level = 0» в режиме мониторинга и приложите его к заданию.
@@ -96,18 +107,19 @@
 ### Задание 3
 
 1. Внесите изменения в функциональный блок GRAPH_TankFill_FB:
-- добавьте новый блок «шаг + переход» между переходом «Level = 0» (T5) и переходом в шаг «All Valves Cl» (S1). Измените название шага на «WaitEmpty», а название перехода - на «Time»
-- в Actions нового шага внесите следующие действия:
+  
+  - добавьте новый блок «шаг + переход» между переходом «Level = 0» (T5) и переходом в шаг «All Valves Cl» (S1). Измените название шага на «WaitEmpty», а название перехода — на «Time»;
+  - в Actions нового шага внесите действия:
 
-a. подача команды закрытия на клапан Valve2
+     - подача команды закрытия на клапан Valve2;
+     - запуск экземпляра таймера TON IEC_Timer_0_DB_4 с задержкой 20 секунд.
 
-b. запуск экземпляра таймера TON IEC_Timer_0_DB_4 с временем задержки 20 секунд.
+  - в новый переход внесите условие «Таймер TON отсчитал требуемое время» по аналогии с условием, например, в переходе «30 s» (T4);
+  - внесите изменения в Actions шага «All Valves Cl» (S1) — добавьте команду сброса таймера TON IEC_Timer_0_DB_4.
 
-- в новый переход внесите условие «Таймер TON отсчитал требуемое время» по аналогии с условием, например, в переходе «30 s» (T4)
-- внесите изменения в Actions шага «All Valves Cl» (S1) - добавьте команду сброса таймера TON IEC_Timer_0_DB_4.
 2. Произведите компиляцию и загрузку проекта в PLCSIM.
-3. Запустите программу, выполняя условия переходов между шагами. Убедитесь, что новый шаг был выполнен, и время его выполнения соответствует заданному.
-4. Сделайте скриншоты развёрнутых Actions измененного шага «All Valves Cl», нового шага «WaitEmpty», нового перехода «Time» и приложите их к заданию.
+3. Запустите программу, выполняя условия переходов между шагами. Убедитесь, что новый шаг был выполнен и время его выполнения соответствует заданному.
+4. Сделайте скриншоты развёрнутых Actions изменённого шага «All Valves Cl», нового шага «WaitEmpty», нового перехода «Time» и приложите их к заданию.
 
 ------
 
@@ -116,7 +128,7 @@ b. запуск экземпляра таймера TON IEC_Timer_0_DB_4 с вр
 
 1. Отправлена ссылка на документ (Google Doc) с выполненным заданием в личном кабинете.
 2. Документ размещён на личном Google Диске.
-3. К документу настроены права доступа «Просматривать могут все в Интернете, у кого есть ссылка».
+3. К документу настроены права доступа «Просматривать могут все в интернете, у кого есть ссылка».
 
 ------
 
