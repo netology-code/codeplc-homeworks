@@ -15,7 +15,7 @@
 
 1. Зарегистрируйтесь на [портале Siemens](https://mall.industry.siemens.com/goos/WelcomePage.aspx?regionUrl=/ru&language=ru) и получите персональный логин и пароль для входа в систему. Процесс регистрации описан в [инструкции](https://docs.google.com/presentation/d/1RPHvCE2OxBbHRMWSAV2E-HxscZvR2nRIZVHCy8hvjJE/edit?usp=sharing).
 2. Загрузите с [официального ресурса Siemens](https://support.industry.siemens.com/cs/document/78793685/simatic-step-7-(tia-portal)-v13-trial-download?dti=0&lc=en-DE) и установите программное обеспечение для создания проекта PLC Siemens, входящее в состав пакета TIA Portal. 
-3. Скачайте [архив программного проекта Netology_Project_SFC](https://drive.google.com/file/d/1sW8EiOawku5Jo9VZNBe6buyNNdq9jsUU/view?usp=sharing) и распакуйте его, используя функцию Retrieve среды программирования TIA Portal.
+3. Скачайте [архив программного проекта Netology_Project_SFC](https://drive.google.com/file/d/1i0VcPWArjz-Rc6Zb5zzVPpaHjWtJCU_z/view?usp=share_link) и распакуйте его, используя функцию Retrieve среды программирования TIA Portal.
 
 <details>
   <summary> Подсказка по установке.</summary>
@@ -57,7 +57,7 @@
 ### Инструменты и дополнительные материалы для выполнения задания
 
 1. [TIA Portal 13, PLCSIM 13](https://support.industry.siemens.com/cs/document/109745155/simatic-step-7-including-plcsim-v13-sp2-trial-download?dti=0&lc=en-WW).
-2. [Архив проекта Netology_Project_SFC](https://drive.google.com/file/d/1sW8EiOawku5Jo9VZNBe6buyNNdq9jsUU/view?usp=sharing).
+2. [Архив проекта Netology_Project_SFC](https://drive.google.com/file/d/1i0VcPWArjz-Rc6Zb5zzVPpaHjWtJCU_z/view?usp=share_link).
 3. [Инструкция по созданию виртуальной машины](https://docs.google.com/presentation/d/1psnSlotXT7cr8ECnaZaTCDLnIyYOGUzCArLeydeRztY/edit?usp=sharing).
 4. [Шаблон для домашнего задания](https://docs.google.com/document/d/1fY7ppRmQDDn8RPF8LRXai7DpTxoiajZSpb288-KPi7c/edit?usp=sharing).
 
@@ -65,7 +65,7 @@
 
 ### Задание 1
 
-В [проекте Netology_Project_SFC](https://drive.google.com/file/d/1sW8EiOawku5Jo9VZNBe6buyNNdq9jsUU/view?usp=sharing) проделайте операции:
+В [проекте Netology_Project_SFC](https://drive.google.com/file/d/1i0VcPWArjz-Rc6Zb5zzVPpaHjWtJCU_z/view?usp=share_link) проделайте операции:
 
 1. Добавьте в таблицу тегов PLC_Tags_1 новые теги:
 
