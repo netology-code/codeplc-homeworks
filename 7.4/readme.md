@@ -43,7 +43,7 @@
 1. [Справочный материал по командам Arduino](https://alexgyver.ru/lessons/arduino-reference/).
 2. [Справочник по языку Wiring/С для Arduino](https://www.arduino.cc/reference/en).
 3. [Страница создания проекта для платы Arduino Uno](https://wokwi.com/projects/new/arduino-uno).
-4. [Встроенная библиотека](https://wokwi.com/arduino/libraries/SevSeg).
+4. [Встроенная библиотека](https://github.com/DeanIsMe/SevSeg?ysclid=lmaplyo42a365488586).
 
 ------
 
@@ -53,7 +53,7 @@
 
 1. Подключите к контроллеру семисегментный индикатор.
 2. Настройте индикацию счёта от 0 до 9 с задержкой в одну секунду.
-3. Для выполнения задания можете использовать встроенную [библиотеку](https://wokwi.com/arduino/libraries/SevSeg).
+3. Для выполнения задания можете использовать встроенную [библиотеку](https://github.com/DeanIsMe/SevSeg?ysclid=lmaplyo42a365488586).
 
 
 ------
