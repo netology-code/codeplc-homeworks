@@ -48,7 +48,7 @@
 ### Инструменты и дополнительные материалы для выполнения задания
 
 1. [Справочный материал по командам Arduino](https://alexgyver.ru/lessons/arduino-reference/).
-2. [Справочник по языку Wiring/С для Arduino](https://www.arduino.cc/reference/en).
+2. [Справочник по языку Wiring/С для Arduino](https://wikihandbk.com/wiki/Arduino:Содержание).
 3. [Страница создания проекта для платы Arduino Uno](https://wokwi.com/projects/new/arduino-uno).
 
 ------
